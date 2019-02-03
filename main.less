@@ -3,8 +3,8 @@
 body{
     background-image: url(photos/BackgroundImageDesktop.png); 
     @font-face{
-        font-family: Londrina;
-        src: url(LondrinaSolid-Regular.otf);
+        font-family: "Londrina" !important;
+        src: url("fonts/LondrinaSolid-Regular.OTF") format("OTF") !important;
     }
 }
 
@@ -14,10 +14,21 @@ header{
         display: block; 
         margin: auto;
     }
-    nav li{
+    nav {
+            
+        text-align: center;
+        
+        li{
         display: inline; 
-        list-style-type: none; 
-        margin: auto; 
         padding-right: 5%;
-    }
+        text-align: center;    
+        }
+        
+   }
 }
+
+a, a:hover{
+    color: black;
+    list-style-type: none;
+}
+
