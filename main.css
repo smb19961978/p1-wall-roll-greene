@@ -1,14 +1,22 @@
 @font-face {
   font-family: "Londrina" !important;
-  src: url("/fonts/LondrinaSolid-Regular.otf") format("OTF") !important;
+  src: url(fonts/LondrinaSolid-Regular.otf) format("OTF") !important;
 }
 body {
   background-image: url(photos/BackgroundImageDesktop.png);
 }
 @font-face {
   font-family: "Londrina" !important;
-  src: url("/fonts/LondrinaSolid-Regular.otf") format("OTF") !important;
 }
+/*
+body{
+    background-image: url(photos/BackgroundImageDesktop.png);
+    @font-face{
+        font-family: "Londrina" !important;
+        src: url('/fonts/LondrinaSolid-Regular.otf') format("OTF") !important;
+    }
+}
+*/
 header img {
   width: 20%;
   display: block;
