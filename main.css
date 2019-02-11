@@ -1,1 +1,30 @@
+<<<<<<< HEAD
 body{background-image:url(photos/BackgroundImageDesktop.png)}@font-face{font-family:"Londrina" !important;src:url("fonts/LondrinaSolid-Regular.OTF") format("OTF") !important}header img{width:20%;display:block;margin:auto}header nav{text-align:center}header nav li{display:inline;padding-right:5%;text-align:center}#about-main #bottlecap{width:138px;height:150px;display:none}#about-main #marquee{width:75px;height:250px;display:none}#about-main #redbuilding{height:200px}#about-main #links{padding-top:5%}#about-main h1{color:#dd2528}@media (min-width:720px){#about-main #redbuilding{height:500px}}#about-main p{margin:auto;padding-bottom:2%}#about-main img{margin-bottom:2%;padding-bottom:5%;margin:auto}#about-main .col-12 col-md-2{margin:auto;display:block}a,a:hover{color:#000;list-style-type:none}#friends #frenchy-img{height:278px}#friends #mousie-img{height:599px}#friends #studiobe-img{height:500px}#friends #whohadada-img{height:278px}footer{padding-top:5%}footer p{margin:auto}footer img{width:25px;margin:auto;display:block}@media (min-width:760px){footer{width:50%;margin:auto}}
+=======
+@font-face {
+  font-family: "Londrina" !important;
+  src: url(fonts/LondrinaSolid-Regular.otf) format("OTF") !important;
+}
+body {
+  background-image: url(photos/BackgroundImageDesktop.png);
+  font-family: "Londrina" !important;
+}
+header img {
+  width: 20%;
+  display: block;
+  margin: auto;
+}
+header nav {
+  text-align: center;
+}
+header nav li {
+  display: inline;
+  padding-right: 5%;
+  text-align: center;
+}
+a,
+a:hover {
+  color: black;
+  list-style-type: none;
+}
+>>>>>>> 6ce569924642664247661f19d40c0cc03c2094d1
