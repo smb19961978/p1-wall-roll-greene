@@ -2,10 +2,13 @@
 
 body{
     background-image: url(photos/BackgroundImageDesktop.png); 
+    
     @font-face{
         font-family: "Londrina" !important;
         src: url("fonts/LondrinaSolid-Regular.OTF") format("OTF") !important;
     }
+    
+    
 }
 
 header{
@@ -27,8 +30,71 @@ header{
    }
 }
 
+main{
+    #bottlecap{
+        width: 138px; 
+        height: 150px;
+        display: none;
+    }
+    
+    #marquee{
+        width: 75px;
+        height:250px;
+        display: none;
+    }
+    
+    #redbuilding{
+        height: 200px;
+    }
+    
+    @media(min-width:720px){
+        #redbuilding{
+            height: 500px;
+        }
+    }
+    
+    p{
+        margin: auto;
+        padding-bottom: 2%;
+    }
+    
+    img{
+        margin-bottom: 5%;
+        padding-bottom: 5%;
+        margin: auto;
+    }
+    
+    .col-12 col-md-2{
+        margin: auto;
+        display: block;
+    }
+}
+
 a, a:hover{
     color: black;
     list-style-type: none;
 }
 
+
+footer{
+    
+    padding-top: 5%;
+    
+    p{
+        margin: auto;
+    }
+    
+     img{
+        width: 25px;
+        margin: auto;
+         display: block;
+        
+    }
+    
+    @media (min-width:760px){
+        width: 50%; 
+        margin: auto;
+    }
+    
+   
+}
