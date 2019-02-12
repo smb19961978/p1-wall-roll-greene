@@ -192,7 +192,52 @@ a, a:hover{
 }
 
 //contact page
+.contact-container {
 
+
+  h1 {
+    font-family: 'Londrina';
+    color: #dd2528;
+  }
+
+  .address h3, .phone h3{
+    text-align: center;
+    font-family: "Londrina";
+    color: #dd2528;
+    font-size: 1rem;
+  }
+  .address, .phone {
+    padding: 30px 0 10px 0;
+  }
+  .map iframe {
+    display: flex;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  img {
+    margin: 0 auto;
+    max-width: 300px;
+    display: block;
+  }
+
+  @media (min-width:500px) {
+    .address h3, .phone h3 {
+      font-size: 1.2rem;
+    }
+    iframe {
+      width: 500px;
+      height: 300px;
+    }
+  }
+
+  @media (min-width:700px){
+    iframe {
+      width:650px;
+      height:400px;
+    }
+  }
+}
 footer{
 
     padding-top: 5%;
