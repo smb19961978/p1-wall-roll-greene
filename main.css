@@ -1,1 +1,139 @@
-@font-face{font-family:"Londrina" !important;src:url(fonts/LondrinaSolid-Regular.otf) format("OTF") !important}body{background-image:url(photos/BackgroundImageDesktop.png);font-family:"Londrina" !important}@font-face{font-family:"Londrina" !important;src:url("fonts/LondrinaSolid-Regular.OTF") format("OTF") !important}header img{width:20%;display:block;margin:auto}header nav{text-align:center}header nav li{display:inline;padding-right:5%;text-align:center}#about-main #bottlecap{width:138px;height:150px;display:none}#about-main #marquee{width:75px;height:250px;display:none}#about-main #redbuilding{height:200px}#about-main #links{padding-top:5%}#about-main h1{color:#dd2528}@media (min-width:720px){#about-main #redbuilding{height:500px}}#about-main p{margin:auto;padding-bottom:2%}#about-main img{margin-bottom:2%;padding-bottom:5%;margin:auto}#about-main .col-12 col-md-2{margin:auto;display:block}a,a:hover{color:#000;list-style-type:none;width:0}#friends #frenchy-img{height:278px}#friends #mousie-img{height:599px}#friends #studiobe-img{height:500px}#friends #whohadada-img{height:278px}footer{padding-top:5%}footer p{margin:auto}footer img{width:25px;margin:auto;display:block}@media (min-width:760px){footer{width:50%;margin:auto}}
+@font-face {
+  font-family: "Londrina" !important;
+  src: url(fonts/LondrinaSolid-Regular.otf) format("OTF") !important;
+}
+body {
+  /*<<<<<<< HEAD*/
+  /*=======*/
+  background-image: url(photos/BackgroundImageDesktop.png);
+  font-family: "Londrina" !important;
+  /*>>>>>>> 6ce569924642664247661f19d40c0cc03c2094d1*/
+}
+@font-face {
+  font-family: "Londrina" !important;
+  src: url("fonts/LondrinaSolid-Regular.OTF") format("OTF") !important;
+}
+header img {
+  width: 20%;
+  display: block;
+  margin: auto;
+}
+header nav {
+  text-align: center;
+}
+header nav li {
+  display: inline;
+  padding-right: 5%;
+  text-align: center;
+}
+#about-main #bottlecap {
+  width: 138px;
+  height: 150px;
+  display: none;
+}
+#about-main #marquee {
+  width: 75px;
+  height: 250px;
+  display: none;
+}
+#about-main #redbuilding {
+  height: 200px;
+}
+#about-main #links {
+  padding-top: 5%;
+}
+#about-main h1 {
+  color: #dd2528;
+}
+@media (min-width: 720px) {
+  #about-main #redbuilding {
+    height: 500px;
+  }
+}
+#about-main p {
+  margin: auto;
+  padding-bottom: 2%;
+}
+#about-main img {
+  margin-bottom: 2%;
+  padding-bottom: 5%;
+  margin: auto;
+}
+#about-main .col-12 col-md-2 {
+  margin: auto;
+  display: block;
+}
+a,
+a:hover {
+  color: black;
+  list-style-type: none;
+  width: 0;
+}
+/*<<<<<<< HEAD*/
+#friends #frenchy-img {
+  height: 278px;
+}
+#friends #mousie-img {
+  height: 599px;
+}
+#friends #studiobe-img {
+  height: 500px;
+}
+#friends #whohadada-img {
+  height: 278px;
+}
+#press-main .press-container {
+  margin: 0 auto;
+}
+#press-main .row,
+#press-main #pressrow {
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+#press-main #pressword {
+  max-height: 120px;
+  max-width: 200px;
+}
+#press-main #press1 {
+  max-width: 300px;
+  max-height: 400px;
+  margin: 0 auto;
+  background-image: url("photos/PressSq1.png");
+  background-position: 75% 50%;
+  background-size: 100% 100%;
+}
+#press-main #press2 {
+  max-width: 300px;
+  max-height: 400px;
+  margin: 0 auto;
+}
+#press-main #press3 {
+  max-width: 300px;
+  max-height: 400px;
+  margin: 0 auto;
+}
+#press-main #press4 {
+  max-width: 300px;
+  max-height: 400px;
+  margin: 0 auto;
+}
+footer {
+  padding-top: 5%;
+}
+footer p {
+  margin: auto;
+}
+footer img {
+  width: 25px;
+  margin: auto;
+  display: block;
+}
+@media (min-width: 760px) {
+  footer {
+    width: 50%;
+    margin: auto;
+  }
+}
+/*=======
+>>>>>>> 6ce569924642664247661f19d40c0cc03c2094d1*/
