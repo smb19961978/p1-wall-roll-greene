@@ -96,8 +96,7 @@ a:hover {
   max-width: 200px;
 }
 #press-main #press1 {
-  max-width: 300px;
-  max-height: 400px;
+  max-width: 360px;
   margin: 0 auto;
   background-image: url("photos/PressSq1.png");
   background-size: 400px 600px, cover;
@@ -108,8 +107,7 @@ a:hover {
   border-bottom-width: 10px;
 }
 #press-main #press2 {
-  max-width: 300px;
-  max-height: 400px;
+  max-width: 360px;
   margin: 0 auto;
   background-image: url("photos/PressSq2.png");
   background-size: 400px 600px, cover;
@@ -120,8 +118,7 @@ a:hover {
   border-bottom-width: 10px;
 }
 #press-main #press3 {
-  max-width: 300px;
-  max-height: 400px;
+  max-width: 360px;
   margin: 0 auto;
   background-image: url("photos/PressSq3.png");
   background-size: 400px 600px, cover;
@@ -132,8 +129,7 @@ a:hover {
   border-bottom-width: 10px;
 }
 #press-main #press4 {
-  max-width: 300px;
-  max-height: 400px;
+  max-width: 360px;
   margin: 0 auto;
   background-image: url("photos/PressSq4.png");
   background-size: 400px 600px, cover;
