@@ -100,23 +100,48 @@ a:hover {
   max-height: 400px;
   margin: 0 auto;
   background-image: url("photos/PressSq1.png");
-  background-position: 75% 50%;
-  background-size: 100% 100%;
+  background-size: 400px 600px, cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  border: 30px solid #dd2528;
+  border-right-width: thick;
+  border-bottom-width: 10px;
 }
 #press-main #press2 {
   max-width: 300px;
   max-height: 400px;
   margin: 0 auto;
+  background-image: url("photos/PressSq2.png");
+  background-size: 400px 600px, cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  border: 30px solid #f89522;
+  border-right-width: thick;
+  border-bottom-width: 10px;
 }
 #press-main #press3 {
   max-width: 300px;
   max-height: 400px;
   margin: 0 auto;
+  background-image: url("photos/PressSq3.png");
+  background-size: 400px 600px, cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  border: 30px solid #00a9c8;
+  border-right-width: thick;
+  border-bottom-width: 10px;
 }
 #press-main #press4 {
   max-width: 300px;
   max-height: 400px;
   margin: 0 auto;
+  background-image: url("photos/PressSq4.png");
+  background-size: 400px 600px, cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  border: 30px solid #6941ae;
+  border-right-width: thick;
+  border-bottom-width: 10px;
 }
 footer {
   padding-top: 5%;
