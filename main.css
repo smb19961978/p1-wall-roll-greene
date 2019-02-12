@@ -6,7 +6,7 @@ body {
   /*<<<<<<< HEAD*/
   /*=======*/
   background-image: url(photos/BackgroundImageDesktop.png);
-  font-family: "Londrina" !important;
+  font-family: 'Londrina Solid', cursive;
   /*>>>>>>> 6ce569924642664247661f19d40c0cc03c2094d1*/
 }
 @font-face {
@@ -140,13 +140,13 @@ a:hover {
   border-bottom-width: 10px;
 }
 .contact-container h1 {
-  font-family: 'Londrina';
+  font-family: 'Londrina Solid', cursive;
   color: #dd2528;
 }
 .contact-container .address h3,
 .contact-container .phone h3 {
   text-align: center;
-  font-family: "Londrina";
+  font-family: 'Londrina Solid', cursive;
   color: #dd2528;
   font-size: 1rem;
 }
