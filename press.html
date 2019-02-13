@@ -7,7 +7,7 @@
 
 		<title>Dr. BOB ART PRESS</title>
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
 		<link type="text/css" rel="stylesheet" href="main.css" />
 
@@ -17,6 +17,8 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 		<!--[if lt IE 9]>
 			<script src="js/html5shiv-printshiv.min.js"></script>
 		<![endif]-->
@@ -25,24 +27,34 @@
 	</head>
 
 	<body>
+		<button class="hamburger">&#9776;</button>
+  	<button class="cross">&#735;</button>
+
     <header>
+      <a href="index.html"><img src=photos/logo.png alt="logo" title="logo">
 
-        <a href="index.html"><img src=photos/logo.png alt="logo" title="logo">
+      <nav class="menu">
+          <ul>
+              <li><a href="art.html">Art</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="friends.html">Doc's Friends</a></li>
+              <li><a href="press.html">Press</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
 
-        <nav>
+      </nav>
+      <nav class="desktop-menu">
+          <ul>
+              <li><a href="art.html">Art</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="friends.html">Doc's Friends</a></li>
+              <li><a href="press.html">Press</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </nav>
 
-            <ul>
-                <li><a href="art.html">Art</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="friends.html">Doc's Friends</a></li>
-                <li><a href="press.html">Press</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+  	</header>
 
-        </nav>
-
-
-    </header>
     <main class="press-container" id="press-main">
         <div class="row">
         <img class="col-sm-12 col-md-3 col-lg-3 text-center" id="pressword" src="photos/PressWord.png" alt="doc's press logo" title="doc's press logo">
@@ -81,6 +93,7 @@
       <img src="photos/phone.png" alt="phone logo" title="phone logo">
     </footer>
 
+		<script src="js/hamburger.js"></script>
 	</body>
 
 </html>
