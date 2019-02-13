@@ -124,6 +124,40 @@ header nav nav .desktop-menu {
     text-align: center;
   }
 }
+.home-container {
+  margin: 0 auto;
+}
+.home-container #hometext {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.home-container #hometext img {
+  display: none;
+}
+.home-container #icons-home-mobile img {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto;
+}
+.home-container #home-photos img {
+  max-width: 400px;
+  max-height: 400px;
+  margin: 0 auto;
+}
+@media (min-width: 700px) {
+  .home-container #hometext img {
+    display: block;
+    max-width: 220px;
+    max-height: 220px;
+  }
+  .home-container #icons-home-mobile img {
+    display: none;
+  }
+  .home-container #home-photos img {
+    width: 300px;
+    height: 500px;
+  }
+}
 #about-main #bottlecap {
   width: 138px;
   height: 150px;
