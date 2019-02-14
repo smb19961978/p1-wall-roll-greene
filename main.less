@@ -105,6 +105,8 @@ body{
 //Home Page
 .home-container{
   margin: 0 auto;
+  max-width: 900px;
+
   #hometext {
     max-width: 700px;
     margin: 0 auto;
@@ -114,18 +116,41 @@ body{
   }
 
   #icons-home-mobile img {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 175px;
+    max-height: 150px;
     margin: 0 auto;
   }
 
    #home-photos img{
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 300px;
+    max-height: 200px;
     margin: 0 auto;
+    padding-bottom: 2%;
+  }
+
+  #home-photos-wide img {
+    max-width: 300px;
+    max-height: 425px;
+    margin: 0 auto;
+    padding-bottom: 2%;
   }
 
 
+}
+
+@media (min-width:500px) {
+  .home-container {
+
+    #home-photos img{
+     max-width: 400px;
+    max-height: 300px;
+   }
+   #home-photos-wide img {
+     max-width: 400px;
+     max-height: 625px;
+   }
+
+  }
 }
 
 @media (min-width:700px) {
@@ -140,9 +165,31 @@ body{
       display:none;
     }
     #home-photos img{
-     width: 300px;
-    height: 500px;
+     max-width: 680px;
+     max-height: 430px;
    }
+   #home-photos-wide img {
+    max-width: 260px;
+    max-height: 370px;
+
+   }
+
+  }
+}
+
+@media (min-width:900px) {
+  .home-container {
+
+
+    #home-photos img{
+     max-width: 300px;
+     max-height: 200px;
+   }
+   #home-photos-wide img {
+     max-width: 300px;
+     max-height: 425px;
+   }
+
   }
 }
 
