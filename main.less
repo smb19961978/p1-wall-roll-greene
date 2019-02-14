@@ -60,7 +60,7 @@ body{
        nav {
          display: none;
          nav .desktop-menu {
-         display: none;
+            display: none;
          }
        }
        /*nav  {
@@ -99,11 +99,7 @@ body{
                 text-align: center;
               }
 
-
-
      }
-
-
          }
 
 //Home Page
@@ -164,10 +160,6 @@ body{
         display: none;
     }
 
-    #redbuilding{
-        height: 200px;
-    }
-
     #links{
         padding-top: 5%;
     }
@@ -175,12 +167,11 @@ body{
     h1{
         color: @red;
     }
-
-    @media(min-width:720px){
-        #redbuilding{
-            height: 500px;
+     
+    #redbuilding{
+            max-height: 500px;
         }
-    }
+
 
     p{
         margin: auto;
@@ -190,13 +181,25 @@ body{
     img{
         margin-bottom: 2%;
         padding-bottom: 5%;
-        margin: auto;
+        
     }
+     
+     #flag{
+         max-height: 200px;
+     }
+     
 
     .col-12 col-md-2{
         margin: auto;
         display: block;
     }
+     
+      @media (min-width:500px){
+             #flag{
+                max-height: 500px;
+         }
+    }
+
 }
 
 a, a:hover{
@@ -204,28 +207,36 @@ a, a:hover{
     list-style-type: none;
     width: 0;
 }
-/*<<<<<<< HEAD*/
 
+//Friend's Page
 #friends{
-    img{
-        max-width: 400px;
-        max-height: 400px;
-        padding-bottom: 5%;
-    }
     #header-img{
         width: 40%;
         padding-top: 5%;
         padding-bottom: 5%;
     }
-
-
-    @media (min-width:700px){
-        .mobile-button{
-            display: none;
-        }
+    
+} 
+    
+.row{
+    
+    text-align: center;
+    
+     .friends-img{
+        
+        display: block;
+        max-height: 400px;
+        max-width: 400px;
+        margin: auto;
     }
+         
+     button{
+        margin-bottom:5%;   
+        margin-top: 5%;
+    }
+        
 }
-
+     
 //Press Page
 #press-main {
   .press-container {
@@ -341,6 +352,7 @@ a, a:hover{
       height: 300px;
     }
   }
+}
 
   @media (min-width:700px){
     iframe {
@@ -348,7 +360,7 @@ a, a:hover{
       height:400px;
     }
   }
-}
+
 footer{
 
     padding-top: 5%;
@@ -361,15 +373,16 @@ footer{
         width: 25px;
         margin: auto;
          display: block;
-
+    }
+    
     }
 
-    @media (min-width:760px){
-        width: 50%;
-        margin: auto;
+@media (min-width:760px){
+        
+        footer{
+            width: 50%;
+            margin: auto;
+        }
     }
+    
 
-
-}
-/*=======
->>>>>>> 6ce569924642664247661f19d40c0cc03c2094d1*/
