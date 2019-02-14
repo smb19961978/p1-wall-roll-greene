@@ -167,7 +167,7 @@ body{
     h1{
         color: @red;
     }
-     
+
     #redbuilding{
             max-height: 500px;
         }
@@ -181,19 +181,19 @@ body{
     img{
         margin-bottom: 2%;
         padding-bottom: 5%;
-        
+
     }
-     
+
      #flag{
          max-height: 200px;
      }
-     
+
 
     .col-12 col-md-2{
         margin: auto;
         display: block;
     }
-     
+
       @media (min-width:500px){
              #flag{
                 max-height: 500px;
@@ -215,28 +215,45 @@ a, a:hover{
         padding-top: 5%;
         padding-bottom: 5%;
     }
-    
-} 
-    
+
+}
+
 .row{
-    
+
     text-align: center;
-    
+
      .friends-img{
-        
+
         display: block;
-        max-height: 400px;
-        max-width: 400px;
+        max-height: 300px;
+        max-width: 300px;
         margin: auto;
     }
-         
+
      button{
-        margin-bottom:5%;   
+        margin-bottom:5%;
         margin-top: 5%;
     }
-        
+
 }
-     
+
+//resize images to be responsive and look better
+@media (min-width:500px) {
+  .row .friends-img {
+
+       max-height: 400px;
+       max-width: 400px;
+       margin: auto;
+   }
+
+}
+//resized "French Photo to fit height of rest"
+@media (min-width: 1200px) {
+  .row .friends-img {
+    max-width: 600px;
+  }
+}
+
 //Press Page
 #press-main {
   .press-container {
@@ -374,15 +391,13 @@ footer{
         margin: auto;
          display: block;
     }
-    
+
     }
 
 @media (min-width:760px){
-        
+
         footer{
             width: 50%;
             margin: auto;
         }
     }
-    
-
