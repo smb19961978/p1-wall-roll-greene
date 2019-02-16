@@ -101,6 +101,7 @@ header {
 header img {
   width: 40%;
   display: block;
+  padding-top: 50px;
   margin: auto;
 }
 header nav {
