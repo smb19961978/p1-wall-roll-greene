@@ -288,7 +288,13 @@ a:hover {
   margin: auto;
   width: 10%;
   padding-top: 50px;
-  padding-bottom: 25px;
+}
+a:hover {
+  color: #DE2227;
+  border-bottom: 2px solid #DE2227;
+}
+.red {
+  color: #DE2227 !important;
 }
 #friends #header-img {
   width: 40%;
@@ -399,6 +405,9 @@ a:hover {
   display: flex;
   margin: 0 auto;
   padding: 30px;
+  width: 50% !important;
+  height: 75vh;
+  filter: invert(1);
 }
 .contact-container img {
   margin: 0 auto;
@@ -425,12 +434,16 @@ footer .row {
   padding: 0;
 }
 footer .row p {
-  padding-top: 1em;
+  padding-top: 2em;
 }
 footer .row a img {
   max-width: 25px !important;
   margin: auto !important;
   display: block !important;
+}
+footer .row a:hover {
+  border-bottom: none !important;
+  opacity: .8 !important;
 }
 @media (min-width: 760px) {
   footer {
