@@ -6,9 +6,13 @@ body {
   /*>>>>>>> 6ce569924642664247661f19d40c0cc03c2094d1*/
 }
 .jumbotron {
-  width: 85% !important;
+  width: 90% !important;
   margin: auto;
-  height: 100vh !important;
+  height: 120vh !important;
+}
+.page-titles {
+  width: 10% !important;
+  margin: auto;
 }
 .hamburger {
   background: none;
@@ -413,14 +417,13 @@ footer .row {
   padding: 0;
 }
 footer .row p {
-  padding-top: 1em;
+  padding-top: 0 !important;
 }
 footer .row img {
   width: 25px;
   margin: auto;
   display: block;
-  padding: 0;
-  padding-top: 0;
+  padding: 0 !important;
 }
 @media (min-width: 760px) {
   footer {
