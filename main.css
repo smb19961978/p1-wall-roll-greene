@@ -13,6 +13,10 @@ body {
 .page-titles {
   width: 10% !important;
   margin: auto;
+  display: block;
+  padding: 0 !important;
+  margin-top: 5%;
+  margin-bottom: 2%;
 }
 .hamburger {
   background: none;
@@ -417,13 +421,13 @@ footer .row {
   padding: 0;
 }
 footer .row p {
-  padding-top: 0 !important;
+  padding-top: 1em;
 }
-footer .row img {
-  width: 25px;
-  margin: auto;
-  display: block;
-  padding: 0 !important;
+footer .row a {
+  width: .1em!important;
+  margin: auto !important;
+  display: block !important;
+  padding: 50px !important;
 }
 @media (min-width: 760px) {
   footer {
