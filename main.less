@@ -1,13 +1,10 @@
 @import "variables";
 
 body{
-/*<<<<<<< HEAD*/
-/*=======*/
     background-image: url(photos/BackgroundImageDesktop.png);
     font-family: 'Londrina Solid', cursive;
-/*>>>>>>> 6ce569924642664247661f19d40c0cc03c2094d1*/
 }
-
+//Art Page Jumbotron
 .jumbotron {
   width: 90% !important;
   margin: auto;
@@ -23,61 +20,61 @@ body{
   margin-bottom: 2%;
 }
 
-   .hamburger{
-     background:none;
-     position:absolute;
-     top:0;
-     right:0;
-     line-height:45px;
-     padding:5px 15px 0px 15px;
-     color:#dd2528;
-     border:0;
-     font-size:2em;
-     font-weight:bold;
-     cursor:pointer;
-     outline:none;
-     z-index:10000000000000;
-   }
-   .cross{
-     background:none;
-     position:absolute;
-     top:0px;
-     right:0;
-     padding:7px 15px 0px 15px;
-     color:#dd2528;
-     border:0;
-     font-size:4em;
-     line-height:80px;
-     font-weight:bold;
-     cursor:pointer;
-     outline:none;
-     z-index:10000000000000;
-   }
-   .menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
-   .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
-   .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-   .menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-   .menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
-   .menu ul li a:hover {  color: #666; text-decoration:none;}
-   .menu a{text-decoration:none; color:#666;}
-   .menu a:hover{text-decoration:none; color:#666;}
+.hamburger{
+   background:none;
+   position:absolute;
+   top:0;
+   right:0;
+   line-height:45px;
+   padding:5px 15px 0px 15px;
+   color:#dd2528;
+   border:0;
+   font-size:2em;
+   font-weight:bold;
+   cursor:pointer;
+   outline:none;
+   z-index:10000000000000;
+  }
+.cross{
+   background:none;
+   position:absolute;
+   top:0px;
+   right:0;
+   padding:7px 15px 0px 15px;
+   color:#dd2528;
+   border:0;
+   font-size:4em;
+   line-height:80px;
+   font-weight:bold;
+   cursor:pointer;
+   outline:none;
+   z-index:10000000000000;
+  }
+  .menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+  .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+  .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+  .menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+  .menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+  .menu ul li a:hover {  color: #666; text-decoration:none;}
+  .menu a{text-decoration:none; color:#666;}
+  .menu a:hover{text-decoration:none; color:#666;}
 
 
-   header{
-       img{
-           width: 40%;
-           display: block;
-           padding-top: 50px;
-           padding-bottom:0 !important;
-           margin: auto;
-       }
-       nav {
-         display: none;
-         nav .desktop-menu {
-            display: none;
-         }
-       }
+header{
+    img{
+     width: 40%;
+     display: block;
+     padding-top: 50px;
+     padding-bottom:0 !important;
+     margin: auto;
     }
+     nav {
+       display: none;
+       nav .desktop-menu {
+          display: none;
+       }
+     }
+}
 
  @media(min-width:700px){
    header {
@@ -89,16 +86,16 @@ body{
         display: none;
      }
 
-      .desktop-menu {
-          display: block;
-        }
-        nav  {
+    .desktop-menu {
+        display: block;
+      }
+    nav  {
+        text-align: center;
+        li{
+            display: inline;
+            padding-right: 5%;
             text-align: center;
-            li{
-                display: inline;
-                padding-right: 5%;
-                text-align: center;
-              }
+          }
      }
    }
 
@@ -202,7 +199,7 @@ body{
   .home-container {
 
 
-    #home-photos img{
+  #home-photos img{
      max-width: 300px;
      max-height: 200px;
    }
@@ -350,7 +347,7 @@ a:hover {
 
 }
 
-//resize images to be responsive and look better
+//resize images to be responsive
 @media (min-width:500px) {
   .row .friends-img {
 
@@ -391,60 +388,34 @@ a:hover {
 
 
   #press1  {
-    //box-shadow:-10px -3px 0px 35px #dd2528;
-    max-width:360px;
-    //max-height: 390px ;
-    margin: 0 auto;
     background-image: url("photos/PressSq1.png");
-    background-size: 400px 600px, cover;
-    background-repeat: no-repeat;
-    background-origin: border-box;
-    border: 30px solid #dd2528;
-    border-right-width: thick;
-    border-bottom-width: 10px;
-
+    border: 90px solid #dd2528;
   }
+
   #press2  {
-    //box-shadow: -10px -3px 0px 35px #f89522;
-    max-width:360px;
-    //max-height:390px ;
-    margin: 0 auto;
+    max-width:380px;
+    max-height: 453px;
     background-image: url("photos/PressSq2.png");
-    background-size: 400px 600px, cover;
-    background-repeat: no-repeat;
-    background-origin: border-box;
-    border: 30px solid #f89522;
-    border-right-width: thick;
-    border-bottom-width: 10px;
+    border: 90px solid #f89522;
+
 
   }
   #press3  {
-    //box-shadow: -10px -3px 0px 35px #00a9c8;
-    max-width:360px;
-    //max-height:390px ;
-    margin: 0 auto;
     background-image: url("photos/PressSq3.png");
-    background-size: 400px 600px, cover;
-    background-repeat: no-repeat;
-    background-origin: border-box;
-    border: 30px solid #00a9c8;
-    border-right-width: thick;
-    border-bottom-width: 10px;
+    border: 90px solid #00a9c8;
 
   }
   #press4  {
-    //box-shadow:-10px -3px 0px 35px #6941ae;
-    max-width:360px;
-    //max-height: 390px;
-     margin: 0 auto;
     background-image: url("photos/PressSq4.png");
-    background-size: 400px 600px, cover;
-    background-repeat: no-repeat;
-    background-origin: border-box;
-    border: 30px solid #6941ae;
-    border-right-width: thick;
-    border-bottom-width: 10px;
+    border: 90px solid #6941ae;
 
+  }
+  #press1, #press2, #press3, #press4 {
+    max-width:380px;
+    margin: 0 auto;
+    border-right-width: 25px;
+    border-top-width: 95px;
+    border-bottom-width: 0px;
   }
 }
 
@@ -526,7 +497,7 @@ footer {
 
 @media (min-width:760px){
 
-        footer{
+    footer {
             width: 50%;
             margin: auto;
         }
